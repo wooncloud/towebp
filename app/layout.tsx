@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://towebp.vercel.app",
+    url: "https://towebpi.vercel.app",
     title: "WebP Converter - Convert Images to WebP Online Free",
     description: "Free online tool to convert images to WebP format. Reduce file size by up to 50% with high-quality compression.",
     siteName: "WebP Converter",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     creator: "@webpconverter",
   },
   alternates: {
-    canonical: "https://towebp.vercel.app",
+    canonical: "https://towebpi.vercel.app",
   },
   verification: {
     google: "your-google-site-verification",

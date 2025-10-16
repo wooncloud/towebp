@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://towebp.vercel.app/sitemap.xml
+Sitemap: https://towebpi.vercel.app/sitemap.xml

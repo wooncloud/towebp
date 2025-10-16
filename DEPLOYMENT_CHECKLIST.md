@@ -148,7 +148,7 @@ verification: {
 
 **현재:**
 ```typescript
-url: "https://towebp.vercel.app"
+url: "https://towebpi.vercel.app"
 ```
 
 **변경 후:**
