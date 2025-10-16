@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     canonical: "https://towebpi.vercel.app",
   },
   verification: {
-    google: "your-google-site-verification",
+    google: "googlef2ea87898abad19d",
   },
 };
 
