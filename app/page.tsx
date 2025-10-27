@@ -2,7 +2,7 @@
 
 import { useState, useCallback } from 'react';
 import { FileImage, Download, Upload, X, Loader2 } from 'lucide-react';
-import { generateStructuredData } from './page-schema';
+import { generateStructuredData, generateFAQSchema, generateHowToSchema } from './page-schema';
 
 interface ConvertedFile {
   name: string;
@@ -135,6 +135,18 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(generateStructuredData()),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateFAQSchema()),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateHowToSchema()),
         }}
       />
 
